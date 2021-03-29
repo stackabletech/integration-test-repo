@@ -6,7 +6,7 @@ used for the integration tests.
 
 The following services are available:
 
-* test-service: A Shell script which just sleeps.
+* test-service: a Shell script which just sleeps.
 
 == Contributing
 The the integration tests and the integration test repo are developed as
