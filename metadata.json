@@ -1,0 +1,14 @@
+{
+  "version": "1",
+  "packages": {
+    "test-service": [
+      {
+        "version": "0.1.0",
+        "path": "test-service/test-service-0.1.0.tar.gz",
+        "hashes": {
+          "SHA512": "a5b68dce3e48cd70b0f4b2d6e6371c9de9e2db81e1e546a03bbe6fac7020336bddd7d91091c29865ee6610fbbfca02fca921ccc3766c4a26e518456380d75140"
+        }
+      }
+    ]
+  }
+}
