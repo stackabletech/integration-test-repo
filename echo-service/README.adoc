@@ -1,0 +1,24 @@
+= echo-service
+
+The echo-service prints the content of the environment variable
+`LOG_OUTPUT` to standard output and falls asleep.
+
+A new line is appended so the content in `LOG_OUTPUT` should not end with
+a new line character.
+
+The capacity of environment variables depends on the system but it is safe
+to store up to 120 kB in `LOG_OUTPUT`.
+
+== Escape sequences
+
+The following escape sequences are recognized:
+
+* `\n`     new line
+* `\\`     backslash
+
+== Example
+
+    $ LOG_OUTPUT='first line\nbackslash: \\\nheart: ♥' start.sh
+    first line
+    backslash: \
+    heart: ♥
