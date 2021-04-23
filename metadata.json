@@ -18,6 +18,15 @@
           "SHA512": "0cd616400e83a0cbe62774bf0ccc9902503049951d187c135f7f3bd7a57e4adf2581736892543d701b12c379435e828778a9f20757e3a81d81a2cee1c03737c7"
         }
       }
+    ],
+    "nostop-service": [
+      {
+        "version": "1.0.0",
+        "path": "nostop-service/nostop-service-1.0.0.tar.gz",
+        "hashes": {
+          "SHA512": "60a787bce87312a32cacc23e8d40cbf7508c9414b278356cae0c1642b1bb133ed37e2d5e8fb804aa79a7659bd43b73640cd5b93a61381391e1437718ea637991"
+        }
+      }
     ]
   }
 }

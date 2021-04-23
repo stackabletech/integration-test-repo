@@ -11,6 +11,8 @@ The following services are available:
   Performs no operation and just sleeps.
 * link:echo-service/README.adoc[echo-service]:
   Prints the content of an environment variable to standard output.
+* link:nostop-service/README.adoc[nostop-service]:
+Performs no operation and just sleeps, but will ignore stop signals sent by systemd and have to be terminated by systemd.
 
 == Contributing
 The integration tests and the integration test repo are developed as open
