@@ -4,9 +4,13 @@
 The integration test repo contains a Stackable repository with services
 used for the integration tests.
 
+== Overview
 The following services are available:
 
-* test-service: a Shell script which just sleeps.
+* link:noop-service/README.adoc[noop-service]:
+  Performs no operation and just sleeps.
+* link:echo-service/README.adoc[echo-service]:
+  Prints the content of an environment variable to standard output.
 
 == Contributing
 The integration tests and the integration test repo are developed as open

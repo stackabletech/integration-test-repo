@@ -1,12 +1,21 @@
 {
   "version": "1",
   "packages": {
-    "test-service": [
+    "noop-service": [
       {
-        "version": "0.1.0",
-        "path": "test-service/test-service-0.1.0.tar.gz",
+        "version": "1.0.0",
+        "path": "noop-service/noop-service-1.0.0.tar.gz",
         "hashes": {
-          "SHA512": "a5b68dce3e48cd70b0f4b2d6e6371c9de9e2db81e1e546a03bbe6fac7020336bddd7d91091c29865ee6610fbbfca02fca921ccc3766c4a26e518456380d75140"
+          "SHA512": "1cba9a5cad05e0aa66be9185b1ed24d40b52cdd21a7638a825f7bc69b1b221250a10cd8c4b5d50faa94e79045b0eeee9b76cbc2094cc47e80084e87caead98ed"
+        }
+      }
+    ],
+    "echo-service": [
+      {
+        "version": "1.0.0",
+        "path": "echo-service/echo-service-1.0.0.tar.gz",
+        "hashes": {
+          "SHA512": "0cd616400e83a0cbe62774bf0ccc9902503049951d187c135f7f3bd7a57e4adf2581736892543d701b12c379435e828778a9f20757e3a81d81a2cee1c03737c7"
         }
       }
     ]
