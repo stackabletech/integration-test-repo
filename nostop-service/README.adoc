@@ -1,0 +1,5 @@
+= nostop-service
+
+The nostop-service performs no action, it just sleeps, the difference to the noop service is, that this service will ignore SIGINT and SIGTERM, which effectively means that it will not stop when systemd asks it to stop.
+
+
