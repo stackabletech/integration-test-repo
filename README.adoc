@@ -6,6 +6,7 @@ used for the integration tests.
 
 == Overview
 The following services are available:
+
 * link:noop-service/README.adoc[noop-service]:
   Performs no operation and just sleeps.
 * link:echo-service/README.adoc[echo-service]:
