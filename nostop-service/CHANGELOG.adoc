@@ -1,0 +1,12 @@
+= Changelog
+
+== 1.0.1 - 2021-05-17
+
+=== Fixed
+* Optional prefix `SIG` removed from trap command parameters because it is
+  not supported on Debian 10 ([#5]).
+
+== 1.0.0 - 2021-04-23
+
+=== Added
+* Service created which does not stop on `SIGINT` and `SIGTERM` ([#4]).
