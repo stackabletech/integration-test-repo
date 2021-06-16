@@ -1,0 +1,5 @@
+= exit-service
+
+The exit-service terminates immediately with the exit code contained in
+the environment variable `EXIT_CODE`. If the environment variable is not
+set then the exit code is 0.

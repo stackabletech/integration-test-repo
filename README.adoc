@@ -7,15 +7,18 @@ used for the integration tests.
 == Overview
 The following services are available:
 
-* link:noop-service/README.adoc[noop-service]:
-  Performs no operation and just sleeps.
 * link:echo-service/README.adoc[echo-service]:
   Prints the content of an environment variable to standard output.
+* link:exit-service/README.adoc[exit-service]:
+  Terminates immediately with a given exit code.
+* link:noop-service/README.adoc[noop-service]:
+  Performs no operation and just sleeps.
 * link:nostop-service/README.adoc[nostop-service]:
-Performs no operation and just sleeps, but will ignore stop signals sent by systemd and have to be terminated by systemd.
+  Performs no operation and just sleeps, but will ignore stop signals
+  sent by systemd and have to be terminated by systemd.
 
 == Contributing
-The integration tests and the integration test repo are developed as open
-source tools and we absolutely welcome any contributions! Don't hesitate
-to drop us a line at info@stackable.de or reach out directly to any of our
-committers/contributors.
+The integration tests and the integration test repo are developed as
+open source tools and we absolutely welcome any contributions! Don't
+hesitate to drop us a line at info@stackable.de or reach out directly to
+any of our committers/contributors.

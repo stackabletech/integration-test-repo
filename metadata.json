@@ -1,21 +1,30 @@
 {
   "version": "1",
   "packages": {
-    "noop-service": [
-      {
-        "version": "1.0.0",
-        "path": "noop-service/noop-service-1.0.0.tar.gz",
-        "hashes": {
-          "SHA512": "1cba9a5cad05e0aa66be9185b1ed24d40b52cdd21a7638a825f7bc69b1b221250a10cd8c4b5d50faa94e79045b0eeee9b76cbc2094cc47e80084e87caead98ed"
-        }
-      }
-    ],
     "echo-service": [
       {
         "version": "1.0.0",
         "path": "echo-service/echo-service-1.0.0.tar.gz",
         "hashes": {
           "SHA512": "0cd616400e83a0cbe62774bf0ccc9902503049951d187c135f7f3bd7a57e4adf2581736892543d701b12c379435e828778a9f20757e3a81d81a2cee1c03737c7"
+        }
+      }
+    ],
+    "exit-service": [
+      {
+        "version": "1.0.0",
+        "path": "exit-service/exit-service-1.0.0.tar.gz",
+        "hashes": {
+          "SHA512": "589e053c71a0169dd55f51c20b6ebf55850c97c241d2f26d56f022272f4b1aa8f2c2bc8647b570b5ca98f1f6fb01c17a4ee189d371a3c00775de8e63c2d719b6"
+        }
+      }
+    ],
+    "noop-service": [
+      {
+        "version": "1.0.0",
+        "path": "noop-service/noop-service-1.0.0.tar.gz",
+        "hashes": {
+          "SHA512": "1cba9a5cad05e0aa66be9185b1ed24d40b52cdd21a7638a825f7bc69b1b221250a10cd8c4b5d50faa94e79045b0eeee9b76cbc2094cc47e80084e87caead98ed"
         }
       }
     ],
